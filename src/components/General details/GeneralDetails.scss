@@ -1,0 +1,33 @@
+.section-heading {
+  font-size: 16px !important;
+  color: #213f7d !important;
+  line-height: 19px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.detail-prop {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #545f7d;
+  margin-bottom: 1rem;
+}
+.detail {
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 19px;
+  color: #545f7d;
+}
+
+.each-section {
+  display: grid;
+  gap: 2rem 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+

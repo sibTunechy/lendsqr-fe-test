@@ -1,0 +1,35 @@
+.MuiContainer-maxWidthLg {
+  width: 100% !important;
+  max-width: unset !important;
+  width: calc(100vw - 317px) !important;
+  // border: solid;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  padding: 2rem;
+}
+
+.icon {
+  border: transparent;
+  font-size: 2.5rem;
+  border-radius: 20px;
+  padding: 0.3rem;
+}
+.user-icon {
+  color: #df18ff;
+  background-color: rgba(223, 24, 255, 0.1);
+}
+.group-icon {
+  color: #5718ff !important;
+  background-color: rgba(87, 24, 255, 0.1);
+}
+
+.users {
+  // border: solid;
+  color: #545f7d;
+  font-weight: bold;
+}
+.number {
+  color: #213f7d;
+  font-weight: bolder !important;
+}

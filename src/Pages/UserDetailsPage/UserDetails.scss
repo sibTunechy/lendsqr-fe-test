@@ -1,0 +1,117 @@
+.MuiContainer-maxWidthLg {
+    width: 100% !important;
+    max-width: unset !important;
+    width: calc(100vw - 317px) !important;
+    // border: solid;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    padding: 2rem;
+    padding-left: 2.5rem !important;
+  }
+
+  .nav-back{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+.back-icon{
+    font-size: 2rem;
+}
+
+.btn{
+    border-radius: 10px;
+    font-weight: bolder !important;
+    letter-spacing: .1rem !important;
+    line-height: 16px !important;
+}
+.active{
+    border: solid #39CDCC  1px !important;
+    color: #39CDCC !important;
+    
+}
+
+.blacklist{
+    border: solid red  1px !important;
+    color: red !important;
+
+}
+.button-div{
+    margin-top: 1rem !important;
+}
+
+.title{
+    color: #213F7D;
+}
+
+.heading-btn-con{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.summary-con{
+    // border: solid ;
+    margin-top: 3rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.avatar{
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+}
+.fullname{
+    text-transform: capitalize;
+    font-size: 22px !important;
+    color: #213F7D;
+    font-weight: bold !important;
+}
+
+.acctNumber{
+    font-size: 14px !important;
+    color: #545F7D !important;
+}
+
+.tier{
+    font-size: 14px !important;
+    color: #545F7D;
+    font-weight: 600 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.acct-bln{
+    font-size: 22px !important;
+    color: #545F7D;
+    font-weight: 600 !important;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bank-name{
+    font-size: 14px !important;
+    color: #545F7D !important;
+}
+
+.MuiToggleButtonGroup-groupedHorizontal{
+    border: transparent !important;
+}
+
+.MuiToggleButton-root{
+    font-size: 16px !important;
+    text-transform: capitalize !important;
+
+}
+.Mui-selected{
+    border-bottom: solid 3px #39CDCC !important;
+    color: #39CDCC !important;
+    background-color: transparent !important;
+    text-decoration: underline;
+
+}
